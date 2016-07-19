@@ -17,6 +17,7 @@ and the program tries to rename them and returns a message of success or failure
 2. For the alphabetical sorting of the files I used the code I found at http://haidermushtaq.com/the-problem-with-alphabetically-sorting-files-if-their-name-contains-a-number/ by Haider Mushtaq
 that implements the algorithm that can be found at http://www.davekoelle.com/alphanum.html by David Koelle. 
 This solves the problem of the ASCII-order sorting, that is the normal sorting in Java. So, the result is something like this:
+
 Previous Java sorting | New "correct" sorting
 -----------------|----------------------
           z1.jpg |  z1.jpg
@@ -25,7 +26,7 @@ Previous Java sorting | New "correct" sorting
           z2.jpg |  z10.jpg
           z3.jpg |  z11.jpg
 
-3. I have also created the method **getFileExtension** that saves the type extension of each file (jpg, bmp, png, txt ...).
+I have also created the method **getFileExtension** that saves the type extension of each file (jpg, bmp, png, txt ...).
 
 For a more detailed information on the code , you can see the two java files.
 
